@@ -29,7 +29,7 @@ NOAA |>
   plot_ly(x = ~month, y = ~snwd, color = ~month, 
           type = "box", colors = "viridis") |>
   layout(
-    title = "Snow Depth Distribution by Month",
+    title = "Snow Depth Distribution by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Snow Depth (mm)")
   )
@@ -43,7 +43,7 @@ NOAA |>
   plot_ly(x = ~month, y = ~prcp, color = ~month,
           type = "bar", colors = "viridis") |>
   layout(
-    title = "Preceptation Distribution by Month",
+    title = "Preceptation Distribution by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Preceptation (mm)")
   )
@@ -52,14 +52,14 @@ NOAA |>
 
 ```{r}
 NOAA |>
-  filter(!is.na(prcp), year == 1998) |>
+  filter(!is.na(tmax), year == 1998) |>
   group_by(month) |>
-  plot_ly(x = ~month, y = ~prcp, color = ~month,
+  plot_ly(x = ~month, y = ~tmax, color = ~month,
           type = "box", colors = "viridis") |>
   layout(
-    title = "Preceptation Distribution by Month",
+    title = "Max Temp Distribution by Month in 1998",
     xaxis = list(title = "Month"),
-    yaxis = list(title = "Preceptation (mm)")
+    yaxis = list(title = "Temperature")
   )
 ```
 
