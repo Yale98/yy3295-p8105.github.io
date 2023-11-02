@@ -8,7 +8,8 @@ output:
 
 # This is Ye Yuan's website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+<img src="./yy_photo.jpg" style="width:75%">
+
 
 # Resume
 [Resume of Ye Yuan](resume.html)
