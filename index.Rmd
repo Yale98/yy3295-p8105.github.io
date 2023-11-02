@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "My website"
 output: 
   html_document:
     toc: true
@@ -8,8 +8,13 @@ output:
 
 # This is Ye Yuan's website
 
+##### Hello everyone, welcome to my website.
+
+##### My name is Ye Yuan.
+
 <img src="./yy_photo.jpg" style="width:75%">
 
 
 # Resume
-[Resume of Ye Yuan](resume.html)
+
+[Click here](resume.html)
