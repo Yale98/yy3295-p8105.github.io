@@ -11,14 +11,13 @@ output:
 ##### Hello everyone, welcome to my website.
 
 ##### My name is Ye Yuan.
-
+ 
 <img src="./yy_photo.jpg" style="width:80%">
 
-
 # Resume
-
+ 
 [Click here for the resume](resume.html)
 
 # Problem 2
-
+  
 [Click here for problem 2](problem2.html)

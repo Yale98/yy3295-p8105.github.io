@@ -1,5 +1,6 @@
 ---
 title: "Problem 2"
+author: "Ye Yuan"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -11,6 +12,12 @@ library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 library(flexdashboard)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
 ```
 
 ```{r}
@@ -25,28 +32,10 @@ NOAA <- ny_noaa |>
          month = lubridate::month(date))
 ```
 
-Column {data-width=650}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart A
-
-```{r}
-NOAA |>
-  filter(!is.na(snwd), year == 1998) |>
-  group_by(month) |>
-  plot_ly(x = ~month, y = ~snwd, color = ~month, 
-          type = "box", colors = "viridis") |>
-  layout(
-    title = "Snow Depth Distribution by Month in 1998",
-    xaxis = list(title = "Month"),
-    yaxis = list(title = "Snow Depth (mm)")
-  )
-```
-
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
 
 ```{r}
 NOAA |>
@@ -58,6 +47,25 @@ NOAA |>
     title = "Preceptation Distribution by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Preceptation (mm)")
+  )
+```
+
+
+Column {data-width=250}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+NOAA |>
+  filter(!is.na(snwd), year == 1998) |>
+  group_by(month) |>
+  plot_ly(x = ~month, y = ~snwd, color = ~month, 
+          type = "box", colors = "viridis") |>
+  layout(
+    title = "Snow Depth Distribution by Month in 1998",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Snow Depth (mm)")
   )
 ```
 
@@ -75,5 +83,3 @@ NOAA |>
     yaxis = list(title = "Temperature")
   )
 ```
-
-
