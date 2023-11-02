@@ -1,0 +1,48 @@
+---
+title: "Problem 2"
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+NOAA <- ny_noaa |>
+  janitor::clean_names() |>
+  mutate(tmax = as.numeric(tmax),
+         tmin = as.numeric(tmin),
+         prcp = prcp / 10,
+         tmax = tmax / 10,
+         tmin = tmin / 10,
+         year = lubridate::year(date),
+         month = lubridate::month(date))
+```
+
+
+```{r}
+NOAA |>
+  filter(!is.na(snwd), year == 2010) |>
+  group_by(month) |>
+  plot_ly(x = ~month, y = ~snwd) |>
+  add_boxplot() |>
+  layout(
+    title = "Snow Depth Distribution by Month",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Snow Depth (mm)")
+  )
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+

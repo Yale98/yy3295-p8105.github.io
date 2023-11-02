@@ -12,9 +12,13 @@ output:
 
 ##### My name is Ye Yuan.
 
-<img src="./yy_photo.jpg" style="width:75%">
+<img src="./yy_photo.jpg" style="width:80%">
 
 
 # Resume
 
-[Click here](resume.html)
+[Click here for the resume](resume.html)
+
+# Problem 2
+
+[Click here for the question and solution](problem2.html)
