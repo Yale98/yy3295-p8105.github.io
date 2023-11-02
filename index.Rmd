@@ -21,4 +21,4 @@ output:
 
 # Problem 2
 
-[Click here for the question and solution](problem2.html)
+[Click here for problem 2](problem2.html)

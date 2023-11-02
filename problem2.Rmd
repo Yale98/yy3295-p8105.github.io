@@ -1,8 +1,12 @@
 ---
 title: "Problem 2"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-```{r}
+```{r setup, include=FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -21,6 +25,10 @@ NOAA <- ny_noaa |>
          month = lubridate::month(date))
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
 
 ```{r}
 NOAA |>
@@ -35,6 +43,10 @@ NOAA |>
   )
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 NOAA |>
@@ -49,6 +61,7 @@ NOAA |>
   )
 ```
 
+### Chart C
 
 ```{r}
 NOAA |>
