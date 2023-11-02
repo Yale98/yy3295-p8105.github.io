@@ -1,35 +1,35 @@
 ---
-title: "Resume"
+title: "**Resume**"
 ---
 
-### YE YUAN 
+### **YE YUAN** 
 
 #### +1.778.952.2886︱yy3295@cumc.columbia.edu
 
-#### EDUCATION 
+#### **EDUCATION** 
 
-##### Columbia University, Mailman School of Public Health New York, NY
+##### **Columbia University, Mailman School of Public Health New York, NY**
 
-###### Master of Science in Epidemiology, Expected in 05/2024, GPA 3.9/4.0 08/2022-Present
+###### **Master of Science in Epidemiology, Expected in 05/2024, GPA 3.9/4.0 08/2022-Present**
 
 - Relative Courses: Clinical Epidemiology, Biostatistical Methods, Application of Epidemiological Research, Design & Conduct of Observational Epidemiology, Analysis of Categorical Data
 
 - Course Projects: 2019-nCoV Pandemic Preparedness in Western Pacific Region; The Effect of Gut Microbiota-based Interventions on Lowering Blood Pressure Among Aiddle-aged Asian American Adults with Hypertension in NYC: a Randomized Controlled Trial
 
-##### University Of Toronto - St. George Campus Toronto, ON
+##### **University Of Toronto - St. George Campus Toronto, ON**
 
-###### Honours Bachelor of Science in Cell & Molecular Biology and Human Biology, Awarded in 06/2021 08/2017-06/2021
+###### **Honours Bachelor of Science in Cell & Molecular Biology and Human Biology, Awarded in 06/2021 08/2017-06/2021**
 
 - Relative Courses: Organic Chemistry, Biochemistry, Cell/Human Biology, Immunity & Infection, Epigenetics, Calculus, Statistics
 
 - Honor: James Hosinec & Carol M Isaac Scholarship, Trinity College
 
  
-#### EXPERIENCE
+#### **EXPERIENCE**
 
-##### Pulnovo Medical New York, NY
+##### **Pulnovo Medical New York, NY**
 
-###### Project Coordinator, Research and Development Department 01/2021- Present
+###### **Project Coordinator, Research and Development Department 01/2021- Present**
 
 - Assisted in organizing and attending the 2022 Steering Committee Meeting in New York City and the 2023 Steering Committee Meeting in San Francisco, focusing on the PADN-FDA Global Trial
 
@@ -41,17 +41,17 @@ title: "Resume"
 
 - Participated in Pulmonary Artery Denervation for Pulmonary Hypertension Session in the Transcatheter Cardiovascular Therapeutics  Conference (the world's foremost educational forum specializing in interventional cardiovascular medicine) in November 2021
 
-##### Nanjing First Hospital China Joint Ocala Heart Institute U.S.A Nanjing Cardiovascular Institute Nanjing, Jiangsu
+##### **Nanjing First Hospital China Joint Ocala Heart Institute U.S.A Nanjing Cardiovascular Institute Nanjing, Jiangsu**
 
-###### Clinical Research Assistant/Sub-Clinical Assistant of Deputy Director 05/2018-08/2022
+###### **Clinical Research Assistant/Sub-Clinical Assistant of Deputy Director 05/2018-08/2022**
 
 - Performed research duties to support Definition-II Trial aimed to compare a two-stent versus provisional stenting techniques on patients with complex coronary bifurcation lesions
 
 - Navigated the communication with managers and research personnel to solve the protocol-related issues and coordinated the effective implementation of these protocols: ECG collection, obtaining vital signs, collecting, and processing of samples
 
-##### The Impact Center at the University of Toronto Toronto, ON
+##### **The Impact Center at the University of Toronto Toronto, ON**
 
-###### Research Assistant 07/2019-01/2021
+###### **Research Assistant 07/2019-01/2021**
 
 - Engaged in the project “measuring the antibiotic ability of a series of photocatalytic materials using the model E. coli cells”: designed and amended the research protocol for bacteria preparation; measured the antibacterial ability of photocatalyst; incubated E. coli cells in the LB medium, then centrifuged the bacterial suspension and used sterile water to re-suspend it
 
@@ -59,15 +59,15 @@ title: "Resume"
 
 - Developed, implemented, and maintained leading-edge data analytics system, solved complicated analytical problems and constructed data frameworks and reports
 
-##### Pattison Technology Research Center Vancouver, BC
+##### **Pattison Technology Research Center Vancouver, BC**
 
-###### Research Assistant 08/2017-12/2020
+###### **Research Assistant 08/2017-12/2020**
 
 - Worked on various clinical projects: research techniques planning, modification, procedure operations and tests improvement
 
 - Collaborated with clinical research project head, Principal Investigators, and other research stuff to collect, clean and organize data files and assure comprehensiveness of individual patient data source
 
-#### PUBLICATIONS/ACCOMPLISHMENT
+#### **PUBLICATIONS/ACCOMPLISHMENT**
 
 - Co-author: Zhang, Jun-Jie et al. “Multicentre, randomized comparison of two-stent and provisional stenting techniques in patients with complex coronary bifurcation lesions: the DEFINITION II trial.” European heart journal vol. 41,27 (2020): 2523-2536. doi:10.1093/eurheartj/ehaa543
 

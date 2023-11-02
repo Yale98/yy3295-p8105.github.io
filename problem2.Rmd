@@ -32,7 +32,7 @@ NOAA <- ny_noaa |>
          month = lubridate::month(date))
 ```
 
-Column {data-width=500}
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -44,30 +44,33 @@ NOAA |>
   plot_ly(x = ~month, y = ~prcp, color = ~month,
           type = "bar", colors = "viridis") |>
   layout(
-    title = "Preceptation Distribution by Month in 1998",
+    title = "Preceptation by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Preceptation (mm)")
   )
 ```
 
 
-Column {data-width=250}
------------------------------------------------------------------------
 
 ### Chart B
 
 ```{r}
 NOAA |>
-  filter(!is.na(snwd), year == 1998) |>
+  filter(!is.na(snow), year == 1998) |>
   group_by(month) |>
-  plot_ly(x = ~month, y = ~snwd, color = ~month, 
-          type = "box", colors = "viridis") |>
+  plot_ly(x = ~month, y = ~snow,
+          type = "scatter", mode = "markers", symbol = c("o"),
+          color = I("black"), marker = list(size = 2)) |>
   layout(
-    title = "Snow Depth Distribution by Month in 1998",
+    title = "Snowfall Distribution by Month in 1998",
     xaxis = list(title = "Month"),
-    yaxis = list(title = "Snow Depth (mm)")
+    yaxis = list(title = "Snowfall")
   )
+
 ```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ### Chart C
 
@@ -79,6 +82,20 @@ NOAA |>
           type = "box", colors = "viridis") |>
   layout(
     title = "Max Temp Distribution by Month in 1998",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Temperature")
+  )
+```
+
+### Chart D
+```{r}
+NOAA |>
+  filter(!is.na(tmin), year == 1998) |>
+  group_by(month) |>
+  plot_ly(x = ~month, y = ~tmin, color = ~month,
+          type = "box", colors = "viridis") |>
+  layout(
+    title = "Min Temp Distribution by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Temperature")
   )
