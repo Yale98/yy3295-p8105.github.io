@@ -6,6 +6,9 @@ output:
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# This is Ye Yuan's website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Resume
+[Resume of Ye Yuan](resume.html)
