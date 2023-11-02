@@ -24,10 +24,10 @@ NOAA <- ny_noaa |>
 
 ```{r}
 NOAA |>
-  filter(!is.na(snwd), year == 2010) |>
+  filter(!is.na(snwd), year == 1998) |>
   group_by(month) |>
-  plot_ly(x = ~month, y = ~snwd) |>
-  add_boxplot() |>
+  plot_ly(x = ~month, y = ~snwd, color = ~month, 
+          type = "box", colors = "viridis") |>
   layout(
     title = "Snow Depth Distribution by Month",
     xaxis = list(title = "Month"),
@@ -37,12 +37,30 @@ NOAA |>
 
 
 ```{r}
-
+NOAA |>
+  filter(!is.na(prcp), year == 1998) |>
+  group_by(month) |>
+  plot_ly(x = ~month, y = ~prcp, color = ~month,
+          type = "bar", colors = "viridis") |>
+  layout(
+    title = "Preceptation Distribution by Month",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Preceptation (mm)")
+  )
 ```
 
 
 ```{r}
-
+NOAA |>
+  filter(!is.na(prcp), year == 1998) |>
+  group_by(month) |>
+  plot_ly(x = ~month, y = ~prcp, color = ~month,
+          type = "box", colors = "viridis") |>
+  layout(
+    title = "Preceptation Distribution by Month",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Preceptation (mm)")
+  )
 ```
 
 
