@@ -5,6 +5,9 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    navbar:
+      - title: "Home"
+        href: index.html
 ---
 
 ```{r setup, include=FALSE}
@@ -50,7 +53,8 @@ NOAA |>
   )
 ```
 
-
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ### Chart B
 
@@ -69,9 +73,6 @@ NOAA |>
 
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
-
 ### Chart C
 
 ```{r}
@@ -82,20 +83,6 @@ NOAA |>
           type = "box", colors = "viridis") |>
   layout(
     title = "Max Temp Distribution by Month in 1998",
-    xaxis = list(title = "Month"),
-    yaxis = list(title = "Temperature")
-  )
-```
-
-### Chart D
-```{r}
-NOAA |>
-  filter(!is.na(tmin), year == 1998) |>
-  group_by(month) |>
-  plot_ly(x = ~month, y = ~tmin, color = ~month,
-          type = "box", colors = "viridis") |>
-  layout(
-    title = "Min Temp Distribution by Month in 1998",
     xaxis = list(title = "Month"),
     yaxis = list(title = "Temperature")
   )
